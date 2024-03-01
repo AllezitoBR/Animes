@@ -63,4 +63,28 @@ inset: 0 0 0 0;
     font-weight: bold;
     font-size: 4em;
     list-style: none;
+    color: red;
+}
+.carousel .item .content .list{
+    font-size: 15px;
+    font-weight:500;
+}
+.carousel .item .content .buttons{
+    display:grid;
+    grid-template-columns: repeat(2, 130px);
+    grid-template-rows: 25px;
+    gap: 5px;
+    margin-top: 10px;
+}
+.carousel .item .content button{
+    font-size: 12px;
+    border: none;
+    background-color: #eee;
+    letter-spacing: 3px;
+    font-family: Poppins;
+    font-weight: 500;
+}
+.carousel .item .content button:nth-child(2){
+    color: #000;
+    border: 1px solid #eee;
 }
