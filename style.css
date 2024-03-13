@@ -58,10 +58,9 @@ header a{
     font-weight: bold;
     letter-spacing: 10px;
 }
-.carousel .item .content .title,
 .carousel .item .content .topic{
     font-weight: bold;
-    font-size: 4em;
+    font-size: 5em;
     list-style: none;
     color: red;
 }
@@ -109,16 +108,19 @@ header a{
     height: 100%;
     object-fit: cover;
     border-radius: 15px;
-    margin-top: 30px;   
+    margin-top: 40px;   
 }
 .thumbnail .item .content{
     position: absolute;
-    bottom: -25px;
-    left: 10px;
+    bottom: 15px;
+    left: 70px;
     right: 10px;
+    top: 235px;
+    color: #eee;
 }
 .thumbnail .item .content .title{
     font-weight: bold;
+
 }
 .arrows{
     position: absolute;
@@ -153,7 +155,6 @@ header a{
     z-index: 1;
 }
 .carousel .item:nth-child(1) .author,
-.carousel .item:nth-child(1) .title,
 .carousel .item:nth-child(1) .list,
 .carousel .item:nth-child(1) .topic,
 .carousel .item:nth-child(1) .des,
@@ -170,20 +171,17 @@ header a{
         transform: translateY(0);
     }
 }
-.carousel .item:nth-child(1) .title{
+.carousel .item .content:nth-child(1) .list{
     animation-delay: 1s;
 }
-.carousel .item:nth-child(1) .list{
+.carousel .item .content:nth-child(1) .topic{
     animation-delay: 1.2s;
 }
-.carousel .item:nth-child(1) .topic{
+.carousel .item .content:nth-child(1) .des{
     animation-delay: 1.4s;
 }
-.carousel .item:nth-child(1) .des{
+.carousel .item .content:nth-child(1) .buttons{
     animation-delay: 1.6s;
-}
-.carousel .item:nth-child(1) .buttons{
-    animation-delay: 1.8s;
 }
 .carousel.next .item:nth-child(1) img{
     width: 150px;
